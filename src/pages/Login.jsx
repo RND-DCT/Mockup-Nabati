@@ -13,11 +13,11 @@ const Login = () => {
             <div className="hidden lg:flex lg:w-1/2 relative bg-slate-900 text-white flex-col justify-center p-12 overflow-hidden gap-10">
                 {/* Background Image Placeholder */}
                 <div className="absolute inset-0 z-0">
-                    <img
+                    {/* <img
                         src="https://images.unsplash.com/photo-1555421689-d68471e189f2?q=80&w=2070&auto=format&fit=crop"
                         alt="Background"
                         className="w-full h-full object-cover opacity-40 mix-blend-overlay"
-                    />
+                    /> */}
                     <div className="absolute inset-0 bg-gradient-to-br from-slate-900/80 to-slate-800/80 mix-blend-multiply"></div>
                     {/* Grid overlay effect */}
                     <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px)', backgroundSize: '40px 40px', opacity: 0.3 }}></div>
